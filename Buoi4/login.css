@@ -1,0 +1,37 @@
+
+.h1{
+    position: fixed;
+    left: 45%;
+    bottom: 70%;
+
+}
+
+.form
+ {
+    position: fixed;
+    left: 35%;
+    bottom: 50%;
+    ;
+    
+}
+
+.link{
+    color: green;
+   
+}
+
+
+.button {
+    position: fixed;
+    left: 56%;
+    bottom:42%;
+    color: white;
+    background-color: #5CB85C;
+    font-size: 150%;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+.abc {
+    font-size: 150%;
+}
