@@ -1,0 +1,64 @@
+// tiếp tục hoàn thành bài tập cuối khóa.
+// tạo file baiTapBuoi10.js và làm các bài tập sau
+/*
+    1: viết 4 hàm tính lần lượt tổng - hiệu - tích - thương của 2 số
+    2: viết hàm chuyển đổi 1 string sang upperCase(in hoa toàn bộ),
+     1 hàm về in thương toàn bộ,
+     function changeString(string) {
+        return // viet hoa toan bo
+     }
+     1 hàm các từ được viết hoa chữ cái đầu
+    vd: nguyen van a ==> NGUYEN VAN A 
+        nguyen VAN A ==> nguyen van a
+        nguyen VAN A ==> Nguyen Van A *****
+
+    ( có thể dùng String method) https://www.w3schools.com/js/js_string_methods.asp
+    viết hàm truyền vào 1 số và kiểm tra xem số đó có lớn hơn 100 hay không 
+        ==> nếu có thì return true, nếu không thì return false
+    viết hàm truyền vào 1 số, tính giai thừa của số đó:
+     giai thừa được tính theo công thức n.(n-1).(n-2).....1: vd: 5! = 5.4.3.2.1 = 120
+    3: viết hàm truyền vào 1 mảng, sử dụng vòng lặp 
+        để tính tổng tất cả các giá trị lẻ/ chẵn của mảng
+        b1 sum: // duoc khai bao ngoai vong for => let / var
+            if(a[i] % 2 == 0) {
+                sum+=a[i]
+            }
+        viết hàm truyền vào 1 mảng, sử dụng vòng lặp 
+        để in ra tất cả các giá trị lớn hơn 100 của mảng
+        viết hàm truyền vào 1 mảng, sử dụng vòng lặp để in ra tất cả các giá trị chẵn
+        viết hàm truyền vào 1 mảng, sử dụng vòng lặp để in ra tất cả các giá trị lẻ
+        viết hàm truyền vào 1 mảng và xuất ra 1 mảng đã được sắp xếp từ bé đến lớn/ từ lớn đến bé
+                recommend: google: các thuật toán sắp xếp cơ bản 
+    4: viết hàm truyền vào 1 mảng, tìm giá trị lớn nhất của mảng đó ****
+            soSanh = -100000000;
+
+
+*/
+const  a = 12 - '-22';
+console.log(a);
+// const array = [ 1,2,4,5,6,0];   
+// [
+//     {price: 20}, {price:'30'} ==> number
+// ]
+// array.sort()           // index +=1
+// for (let index = 0; index < array.length; index++) {
+//     const element = array[index];
+//     if(array[index] > 3) {
+//         console.log(array[index]);
+//     }
+//     // console.log(element);
+// }
+
+// function thoong thuowng
+// function addTowNumber(number1, number2) {
+//     const sum = number1  + number2;
+//     return sum;
+// }
+
+// addTowNumber(12,22);
+const addTowNumber = (number1, number2) => {
+    const sum = number1  + number2;
+    return sum;
+}
+
+console.log(addTowNumber(12, 22));
