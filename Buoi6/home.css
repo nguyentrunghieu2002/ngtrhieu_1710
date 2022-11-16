@@ -4,32 +4,111 @@
     box-sizing: border-box;
 }
 
+
+.top{
+    
+    display: flex;
+    justify-content: space-around;
+    height: 64px;
+    align-items: center;
+    
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    
+}
+
+ul a{
+    text-decoration: none;
+    margin:0px 10px;
+    color: black;
+} 
+
+.conduit{
+    font-weight: bold;
+    font-size: xx-large;
+    color: #5CB85C;
+
+}
+
 .mid{
 
 }
 .glbfeed{
-
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 190px;
+    align-self: center;
 }
+
 .paragraph{
     display: flex;
     flex-direction: column;
-
+    margin: 0px 16%;
 }
-.para1{
 
+
+.avatar{
+    display: flex;
 }
-.para2{
 
+.icon {
+    border-radius: 100%;
 }
-.para3{
 
+.paragrp{
+    padding-right: 36%;
+    color: #5CB85C;
 }
-.para4{
 
+.footer{
+    
+    
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    background: black;
 }
-.para5{
 
+.hub{
+    background-color: orange;
+    color: black;
+    border-radius: 8px;
 }
-.para6{
 
+.git {
+    color: white;
+    text-decoration: none;
+}
+
+.link a{
+    text-decoration: none;
+    color: #5CB85C;
+}
+
+.sign a {
+    color:#5CB85C;
+}
+
+.background{
+    background-image: url(https://cdn.dribbble.com/users/156849/screenshots/6993098/32.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+   
+    
+}
+
+.big-conduit{
+    color: #5CB85C;
+}
+
+.name a{
+    text-decoration: none;
+    color: aqua;
 }
